@@ -1,0 +1,19 @@
+.content{
+    height: calc(100vh - 20px);
+    width: 100%;
+    background: /*Este backgroun es mientras se diseña uno*/
+    linear-gradient(90deg, #ffffff2a 25%, #6f6f6f2a 25%, #6f6f6f2a 50%, #ffffff2a 50%, #ffffff2a 75%, #6f6f6f2a 75%, #6f6f6f2a),
+    linear-gradient(#ffffff2a 25%, #6f6f6f2a 25%, #6f6f6f2a 50%, #ffffff2a 50%, #ffffff2a 75%, #6f6f6f2a 75%, #6f6f6f2a);
+    background-size: 50px 50px ;
+    position: relative;
+    overflow: hidden;
+}
+#laguna{
+    background: /*Este backgroun es mientras se diseña uno*/
+    linear-gradient(45deg, #acfcbd 25%, #81c2ff 25%, #81c2ff 50%, #acfcbd 50%, #acfcbd 75%, #81c2ff 75%, #81c2ff);
+    background-size: 50px 50px;
+    border: white 4px solid;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
